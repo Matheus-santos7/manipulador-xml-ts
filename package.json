@@ -1,0 +1,25 @@
+{
+  "name": "manipulador-xml-ts",
+  "version": "1.0.0",
+  "description": "Ferramenta para automação de manipulação, edição e renomeação de arquivos XML de NFe.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": ["xml", "nfe", "typescript", "node"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "decimal.js": "^10.4.3",
+    "inquirer": "^8.2.4",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
